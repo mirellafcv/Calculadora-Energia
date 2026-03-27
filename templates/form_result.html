@@ -20,7 +20,10 @@
 	<main>
 		<section class="result">
 			<h2>Dados recebidos</h2>
-			<p><strong>Nome:</strong> {{ name }}</p>
+			<p>Seu nome: {{ name }}!</p>
+			<p>Seu e-mail: {{ email }}!</p>
+			<p>Seu endereço: {{ address }}!</p>
+			<p>Data: {{ date }}!</p>
 			<p>Obrigado por enviar suas informações. Se quiser enviar outro formulário, <a href="{{ url_for('form') }}">clique aqui</a>.</p>
 		</section>
 	</main>
